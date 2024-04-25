@@ -39,6 +39,7 @@ Aplikasi ini adalah aplikasi yang digunakan untuk mengelola barang dan transaksi
 ```bash
 git clone https://github.com/rayyanb572/StockTrack.git
 ```
+atau:
 ### Via Download
 https://github.com/rayyanb572/StockTrack/archive/refs/heads/main.zip
 
