@@ -39,6 +39,9 @@ Aplikasi ini adalah aplikasi yang digunakan untuk mengelola barang dan transaksi
 ```bash
 git clone https://github.com/rayyanb572/StockTrack.git
 ```
+### Via Download
+https://github.com/rayyanb572/StockTrack/archive/refs/heads/main.zip
+
 ### Setup Aplikasi
 Jalankan perintah 
 ```bash
@@ -52,7 +55,7 @@ Copy file .env.example dan rubah ke format .env
 ```bash
 cp .env.example .env
 ```
-Konfigurasi file .env
+Konfigurasi file .env (DB_DATABASE samakan dengan nama Database yang digunakan)
 ```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
