@@ -44,7 +44,7 @@ atau:
 https://github.com/rayyanb572/StockTrack/archive/refs/heads/main.zip
 
 ### Setup Aplikasi
-Jalankan perintah 
+Jalankan perintah pada terminal
 ```bash
 composer update
 ```
