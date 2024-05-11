@@ -21,17 +21,15 @@ Aplikasi ini adalah aplikasi yang digunakan untuk mengelola barang dan transaksi
 
 ### Beberapa Fitur utama:
 - Grafik ChartJS pada Dashboard
-- Manajemen Kategori Produk
 - Manajemen Gudang
+- Manajemen Kategori Produk
 - Manajemen Produk
 - Manajemen Supplier
-- Transaksi Pembelian
-- Transaksi Penjualan
+- Transaksi Pembelian (Admin)
+- Transaksi Penjualan (Kasir)
 - Manajemen User dan Profil
 - Pengaturan Toko
-  - Identitas
-  - Setting Diskon 
-- User (Administrator, Kasir)
+- User (Admin, Kasir)
 
 
 ## Instalasi
