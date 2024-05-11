@@ -86,22 +86,6 @@
                         </p>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a href="{{ route('transaksi.baru') }}" class="nav-link">
-                        <i class="nav-icon fa fa-cart-arrow-down"></i>
-                        <p>
-                            Transaksi Aktif
-                        </p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="{{ route('transaksi.baru') }}" class="nav-link">
-                        <i class="nav-icon fa fa-cart-arrow-down"></i>
-                        <p>
-                            Transaksi Baru
-                        </p>
-                    </a>
-                </li>
 
                 <li class="nav-header">SYSTEM</li>
 
@@ -131,19 +115,12 @@
                         </p>
                     </a>
                 </li>
+
                 <li class="nav-item">
                     <a href="{{ route('transaksi.baru') }}" class="nav-link">
                         <i class="nav-icon fa fa-cart-arrow-down"></i>
                         <p>
-                            Transaksi Aktif
-                        </p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="{{ route('transaksi.baru') }}" class="nav-link">
-                        <i class="nav-icon fa fa-cart-arrow-down"></i>
-                        <p>
-                            Transaksi Baru
+                            Transaksi Penjualan
                         </p>
                     </a>
                 </li>

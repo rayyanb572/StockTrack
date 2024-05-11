@@ -16,12 +16,12 @@ class SettingTableSeeder extends Seeder
     {
         DB::table('setting')->insert([
             'id_setting' => 1,
-            'nama_perusahaan' => 'Logistyx',
+            'nama_perusahaan' => 'Stocktrack',
             'alamat' => 'Jl. Dramaga 1234 Bogor',
             'telepon' => '081234779987',
             'tipe_nota' => 1, // kecil
             'diskon' => 0,
-            'path_logo' => '/img/logistyx.png',
+            'path_logo' => '/img/logo-stocktrack.png',
 
         ]);
     }
