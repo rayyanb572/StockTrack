@@ -17,7 +17,7 @@ Kelompok 2 - P1 ADS
 
 ## Tentang Aplikasi
 
-Aplikasi ini adalah aplikasi yang digunakan untuk mengelola barang dan transaksi pada sebuah gudang atau toko untuk memudahkan proses manajemen yang dilakukan berbagai perusahaan dalam mengelola keluar masuknya barang pada gudang ataupun toko mereka. Aplikasi ini dibuat menggunakan Laravel v10.11.0 dan minimal PHP v8.1. 
+Aplikasi ini adalah aplikasi yang digunakan untuk mengelola barang dan transaksi pada sebuah gudang atau toko untuk memudahkan proses manajemen yang dilakukan berbagai perusahaan dalam mengelola keluar masuknya barang pada gudang ataupun toko mereka.
 
 ### Beberapa Fitur utama:
 - Grafik ChartJS pada Dashboard
