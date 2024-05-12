@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="{{ asset('AdminLTE-3/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css') }}">
 
 
-    <link rel="shortcut icon" href="{{ asset('img/logistyx1.png') }}" type="image/x-icon" class="rounded-circle">
+    <link rel="shortcut icon" href="{{ asset('img/logo-stocktrack.png') }}" type="image/x-icon" class="rounded-circle">
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
