@@ -13,25 +13,23 @@ Kelompok 2 - P1 ADS
 | G6401211004 | Adrian Muhammad Abimanyu | Project Manager |
 | G6401211021 | Faizussabiq Khoiri | UI & UX |
 | G6401211072 | Dwi Fitriani Azhari | BackEnd |
-| G6401211087 | Rayyan Baihaqi | FrontEnd |
+| G6401211087 | Rayyan Baihaqi | FrontEnd & BackEnd|
 
 ## Tentang Aplikasi
 
-Aplikasi ini adalah aplikasi yang digunakan untuk mengelola barang dan transaksi pada sebuah gudang atau toko untuk memudahkan proses manajemen yang dilakukan berbagai perusahaan dalam mengelola keluar masuknya barang pada gudang ataupun toko mereka. Aplikasi ini dibuat menggunakan Laravel v10.11.0 dan minimal PHP v8.1. 
+Aplikasi ini adalah aplikasi yang digunakan untuk mengelola barang dan transaksi pada sebuah gudang atau toko untuk memudahkan proses manajemen yang dilakukan berbagai perusahaan dalam mengelola keluar masuknya barang pada gudang ataupun toko mereka.
 
 ### Beberapa Fitur utama:
 - Grafik ChartJS pada Dashboard
-- Manajemen Kategori Produk
 - Manajemen Gudang
+- Manajemen Kategori Produk
 - Manajemen Produk
 - Manajemen Supplier
-- Transaksi Pembelian
-- Transaksi Penjualan
+- Transaksi Pembelian (Admin)
+- Transaksi Penjualan (Kasir)
 - Manajemen User dan Profil
 - Pengaturan Toko
-  - Identitas
-  - Setting Diskon 
-- User (Administrator, Kasir)
+- User (Admin, Kasir)
 
 
 ## Instalasi
@@ -44,7 +42,7 @@ atau:
 https://github.com/rayyanb572/StockTrack/archive/refs/heads/main.zip
 
 ### Setup Aplikasi
-Jalankan perintah 
+Jalankan perintah pada terminal
 ```bash
 composer update
 ```
