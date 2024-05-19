@@ -83,6 +83,12 @@ class PembelianController extends Controller
         $detail = PembelianDetail::where('id_pembelian', $pembelian->id_pembelian)->get();
         $ukuranGudangCukup = true;
 
+        if ($detail->isEmpty()) {
+            $pembelian->delete();
+            return redirect()->route('pembelian.index')
+                ->with('error', 'Detail transaksi tidak ditemukan.');
+        }
+
         foreach ($detail as $item) {
             $produk = Produk::find($item->id_produk);
             $gudang = Gudang::find($produk->id_gudang);

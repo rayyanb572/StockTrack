@@ -69,7 +69,7 @@ class PenjualanController extends Controller
     }
 
     public function store(Request $request)
-    {
+    {z
         $penjualan = Penjualan::findOrFail($request->id_penjualan);
         $penjualan->total_item = $request->total_item;
         $penjualan->total_harga = $request->total;
