@@ -1180,28 +1180,28 @@ DataTable.ext.buttons.copyFlash = $.extend( {}, flashButton, {
 } );
 
 // CSV save file
-DataTable.ext.buttons.csvFlash = $.extend( {}, flashButton, {
-	className: 'buttons-csv buttons-flash',
+// DataTable.ext.buttons.csvFlash = $.extend( {}, flashButton, {
+// 	className: 'buttons-csv buttons-flash',
 
-	text: function ( dt ) {
-		return dt.i18n( 'buttons.csv', 'CSV' );
-	},
+// 	text: function ( dt ) {
+// 		return dt.i18n( 'buttons.csv', 'CSV' );
+// 	},
 
-	action: function ( e, dt, button, config ) {
-		// Set the text
-		var flash = config._flash;
-		var data = _exportData( dt, config );
-		var output = config.customize ?
-			config.customize( data.str, config ) :
-			data.str;
+// 	action: function ( e, dt, button, config ) {
+// 		// Set the text
+// 		var flash = config._flash;
+// 		var data = _exportData( dt, config );
+// 		var output = config.customize ?
+// 			config.customize( data.str, config ) :
+// 			data.str;
 
-		flash.setAction( 'csv' );
-		flash.setFileName( _filename( config ) );
-		_setText( flash, output );
-	},
+// 		flash.setAction( 'csv' );
+// 		flash.setFileName( _filename( config ) );
+// 		_setText( flash, output );
+// 	},
 
-	escapeChar: '"'
-} );
+// 	escapeChar: '"'
+// } );
 
 // Excel save file - this is really a CSV file using UTF-8 that Excel can read
 DataTable.ext.buttons.excelFlash = $.extend( {}, flashButton, {

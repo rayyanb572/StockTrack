@@ -26,7 +26,7 @@
                             <th>Nama</th>
                             <th>Alamat</th>
                             <th>Ukuran</th>
-                            <th width="10%">Status</th>
+                            <th width="10%">Tingkat Kepenuhan</th>
                             <th width="15%"><i class="fa fa-cog"></i></th>
                         </thead>
                     </table>

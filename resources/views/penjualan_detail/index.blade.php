@@ -66,7 +66,7 @@
                         <th>Nama</th>
                         <th>Harga</th>
                         <th width="15%">Jumlah</th>
-                        <th>Diskon</th>
+                        <!-- <th>Diskon</th> -->
                         <th>Subtotal</th>
                         <th width="15%"><i class="fa fa-cog"></i></th>
                     </thead>

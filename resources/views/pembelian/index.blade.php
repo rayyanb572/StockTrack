@@ -16,7 +16,7 @@
             <div class="box-header with-border pb-1">
                 <button onclick="addForm()" class="btn btn-success btn-sm"><i class="fa fa-plus-circle"></i> Transaksi Baru</button>
                 @empty(! session('id_pembelian'))
-                <a href="{{ route('pembelian_detail.index') }}" class="btn btn-info btn-sm"><i class="fa fa-pencil"></i> Transaksi Aktif</a>
+                <!-- <a href="{{ route('pembelian_detail.index') }}" class="btn btn-info btn-sm"><i class="fa fa-pencil"></i> Transaksi Aktif</a> -->
                 @endempty
             </div>
             <div class="box-body table-responsive">
@@ -28,7 +28,7 @@
                         <th>Total Item</th>
                         <th>Total Harga</th>
                         <th>Diskon</th>
-                        <th>Total Bayar</th>
+                        <th>Total Pengeluaran</th>
                         <th width="15%"><i class="fa fa-cog"></i></th>
                     </thead>
                 </table>
