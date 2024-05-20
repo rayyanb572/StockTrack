@@ -1,11 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
 Kelompok 2 - P1 ADS
 | NIM | Nama | Role |
@@ -19,7 +12,7 @@ Kelompok 2 - P1 ADS
 
 Aplikasi ini adalah aplikasi yang digunakan untuk mengelola barang dan transaksi pada sebuah gudang atau toko untuk memudahkan proses manajemen yang dilakukan berbagai perusahaan dalam mengelola keluar masuknya barang pada gudang ataupun toko mereka.
 
-### Beberapa Fitur utama:
+### Beberapa Fitur utama Aplikasi:
 - Grafik ChartJS pada Dashboard
 - Manajemen Gudang
 - Manajemen Kategori Produk
@@ -27,7 +20,7 @@ Aplikasi ini adalah aplikasi yang digunakan untuk mengelola barang dan transaksi
 - Manajemen Supplier
 - Transaksi Pembelian (Admin)
 - Transaksi Penjualan (Kasir)
-- Manajemen User dan Profil
+- Manajemen User (Admin) dan Profil
 - Pengaturan Toko
 - User (Admin, Kasir)
 
@@ -71,23 +64,23 @@ Migrate database
 ```bash
 php artisan migrate
 ```
-Seeder table User, Pengaturan
+Seeder table User dan Pengaturan
 ```bash
 php artisan db:seed
 ```
-install npm
+Install npm
 ```bash
 npm install
 ```
-running vite
+Running vite
 ```bash
 npm run dev
 ```
-running vite
+Running vite
 ```bash
 npm run build
 ```
-Menjalankan aplikasi
+Run aplikasi via server Laravel
 ```bash
 php artisan serve
 ```
