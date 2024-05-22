@@ -12,8 +12,8 @@ Kelompok 2 - P1 ADS
 
 Aplikasi ini adalah aplikasi yang digunakan untuk mengelola barang dan transaksi pada sebuah gudang atau toko untuk memudahkan proses manajemen yang dilakukan berbagai perusahaan dalam mengelola keluar masuknya barang pada gudang ataupun toko mereka.
 
-### Beberapa Fitur utama Aplikasi:
-- Grafik ChartJS pada Dashboard
+### Fitur utama Aplikasi:
+- Grafik ChartJS untuk penjualan pada Dashboard (Admin)
 - Manajemen Gudang
 - Manajemen Kategori Produk
 - Manajemen Produk
