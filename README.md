@@ -72,11 +72,11 @@ Install npm
 ```bash
 npm install
 ```
-Running vite
+Run vite
 ```bash
 npm run dev
 ```
-Running vite
+Run vite
 ```bash
 npm run build
 ```
