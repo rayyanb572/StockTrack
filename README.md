@@ -6,7 +6,7 @@ Kelompok 2 - P1 ADS
 | G6401211004 | Adrian Muhammad Abimanyu | Project Manager |
 | G6401211021 | Faizussabiq Khoiri | UI & UX |
 | G6401211072 | Dwi Fitriani Azhari | BackEnd |
-| G6401211087 | Rayyan Baihaqi | FrontEnd & BackEnd|
+| G6401211087 | Rayyan Baihaqi | FrontEnd |
 
 ## Tentang Aplikasi
 
